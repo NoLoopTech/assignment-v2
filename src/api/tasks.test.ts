@@ -93,7 +93,7 @@ describe('createTask', () => {
 
   it('rejects an invalid status with status 400', async () => {
     const error = await settleError(
-      createTask({ title: 'Valid', status: 'BLOCKED' as TaskStatus }),
+      createTask({ title: 'Valid', status: 'ARCHIVED' as TaskStatus }),
     );
     expect(error.status).toBe(400);
   });
