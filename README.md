@@ -127,15 +127,7 @@ You'll be asked to make some changes to this code **live**, without AI, while sh
 
 ---
 
-## 6. Declaration
-
-Fill this in before you submit:
-
-> I completed this section without using AI tools. — <Your Name>
-
----
-
-## 7. Tips
+## 6. Tips
 
 - Add `?failRate=0` to the URL (http://localhost:3000/?failRate=0) to turn off random failures while you build.
 - Use `?failRate=1` to make every move fail, so you can test your error handling.
